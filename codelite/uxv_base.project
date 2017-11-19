@@ -7,25 +7,25 @@
   </Plugins>
   <VirtualDirectory Name="thirdparty">
     <VirtualDirectory Name="termbox">
-      <VirtualDirectory Name="termbox-master">
+      <VirtualDirectory Name="termbox-1.1.0">
         <VirtualDirectory Name="src">
           <VirtualDirectory Name="demo">
-            <File Name="../thirdparty/termbox/termbox-master/src/demo/wscript"/>
-            <File Name="../thirdparty/termbox/termbox-master/src/demo/output.c"/>
-            <File Name="../thirdparty/termbox/termbox-master/src/demo/keyboard.cpp"/>
+            <File Name="../thirdparty/termbox/termbox-1.1.0/src/demo/keyboard.c"/>
+            <File Name="../thirdparty/termbox/termbox-1.1.0/src/demo/paint.c"/>
+            <File Name="../thirdparty/termbox/termbox-1.1.0/src/demo/wscript"/>
+            <File Name="../thirdparty/termbox/termbox-1.1.0/src/demo/output.c"/>
           </VirtualDirectory>
-          <File Name="../thirdparty/termbox/termbox-master/src/termbox.h"/>
-          <File Name="../thirdparty/termbox/termbox-master/src/utf8.c"/>
-          <File Name="../thirdparty/termbox/termbox-master/src/wscript"/>
-          <File Name="../thirdparty/termbox/termbox-master/src/bytebuffer.inl"/>
-          <File Name="../thirdparty/termbox/termbox-master/src/input.inl"/>
-          <File Name="../thirdparty/termbox/termbox-master/src/term.inl"/>
-          <File Name="../thirdparty/termbox/termbox-master/src/termbox.c"/>
+          <File Name="../thirdparty/termbox/termbox-1.1.0/src/termbox.h"/>
+          <File Name="../thirdparty/termbox/termbox-1.1.0/src/utf8.c"/>
+          <File Name="../thirdparty/termbox/termbox-1.1.0/src/termbox.c"/>
+          <File Name="../thirdparty/termbox/termbox-1.1.0/src/wscript"/>
+          <File Name="../thirdparty/termbox/termbox-1.1.0/src/bytebuffer.inl"/>
+          <File Name="../thirdparty/termbox/termbox-1.1.0/src/input.inl"/>
+          <File Name="../thirdparty/termbox/termbox-1.1.0/src/term.inl"/>
         </VirtualDirectory>
-        <File Name="../thirdparty/termbox/termbox-master/waf"/>
-        <File Name="../thirdparty/termbox/termbox-master/wscript"/>
-        <File Name="../thirdparty/termbox/termbox-master/README"/>
-        <File Name="../thirdparty/termbox/termbox-master/COPYING"/>
+        <File Name="../thirdparty/termbox/termbox-1.1.0/waf"/>
+        <File Name="../thirdparty/termbox/termbox-1.1.0/wscript"/>
+        <File Name="../thirdparty/termbox/termbox-1.1.0/COPYING"/>
       </VirtualDirectory>
     </VirtualDirectory>
     <VirtualDirectory Name="optionparser">
@@ -1800,6 +1800,7 @@
     <File Name="../src/main_test.cpp"/>
     <File Name="../src/main_uv.cpp"/>
     <File Name="../src/cli_args.cpp"/>
+    <File Name="../src/dashboard.cpp"/>
   </VirtualDirectory>
   <VirtualDirectory Name="include">
     <VirtualDirectory Name="module1">

@@ -11,12 +11,12 @@
 
 extern int process_cli_args(int argc, char* argv[]);
 
-extern int keyboard_start(void);
-extern int keyboard_run(void);
-extern int keyboard_stop(void);
+extern int dashboard_start(void);
+extern int dashboard_run(void);
+extern int dashboard_stop(void);
 extern void sigwinch_handler(int ignored);
 
-static int gKeyboardStatus = -1;
+static int gDashboardStatus = -1;
 static bool gShutdown = false;
 static uv_loop_t* gLoop;
 
@@ -75,19 +75,19 @@ int main(int argc, char* argv[])
     uv_timer_init(gLoop, &timer_req);
     uv_timer_start(&timer_req, timer_func, 1000, UV_TIMER_INTERVAL_MS);
 
-    gKeyboardStatus = keyboard_start();
+    gDashboardStatus = dashboard_start();
     uv_signal_t sigwinch;
     uv_signal_init(gLoop, &sigwinch);
     uv_signal_start(&sigwinch, signal_handler, SIGWINCH);
 
     while (!gShutdown) {
         uv_run(gLoop, UV_RUN_NOWAIT);  //UV_RUN_DEFAULT
-        if (gKeyboardStatus >= 0 ) {
-            gKeyboardStatus = keyboard_run();
+        if (gDashboardStatus >= 0 ) {
+            gDashboardStatus = dashboard_run();
         }
     }
 
-    if (gKeyboardStatus >= 0 ) keyboard_stop();
+    if (gDashboardStatus >= 0 ) dashboard_stop();
     uv_loop_close(gLoop);
     uv_tty_reset_mode();
     free(gLoop);

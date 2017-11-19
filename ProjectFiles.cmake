@@ -7,8 +7,8 @@ set(SRC
   "${SRC_PATH}/factorial.cpp"
   "${SRC_PATH}/main_test.cpp"
   "${SRC_PATH}/cli_args.cpp"
+  "${SRC_PATH}/dashboard.cpp"
   "${MODULE1_PATH}/factorial1.c"
-  "${TERMBOX_PATH}/demo/keyboard.cpp"
   "${TERMBOX_PATH}/termbox.c"
   "${TERMBOX_PATH}/utf8.c"
 )

@@ -26,7 +26,7 @@ set(PROJECT_VERSION
 set(PROJECT_PATH                               "${CMAKE_CURRENT_SOURCE_DIR}")
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH}     "${PROJECT_PATH}/cmake/Modules")
 set(OPTPARSER_PATH                             "${PROJECT_PATH}/thirdparty/optionparser/optionparser-1.7/src")
-set(TERMBOX_PATH                               "${PROJECT_PATH}/thirdparty/termbox/termbox-master/src")
+set(TERMBOX_PATH                               "${PROJECT_PATH}/thirdparty/termbox/termbox-1.1.0/src")
 set(INCLUDE_PATH                               "${PROJECT_PATH}/include")
 set(SRC_PATH                                   "${PROJECT_PATH}/src")
 set(MODULE1_PATH                               "${PROJECT_PATH}/src/module1")
