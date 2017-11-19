@@ -38,6 +38,7 @@ external
 
 # Project files
 *.sublime*
+.codelite
 
 # System files
 .DS_Store

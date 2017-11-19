@@ -8,5 +8,6 @@
 #define CPPBASE_HPP
 
 #include "cppbase/factorial.hpp"
+#include "module1/factorial1.hpp"
 
 #endif // CPPBASE_HPP

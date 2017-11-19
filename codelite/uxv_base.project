@@ -1,0 +1,1913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="uxv_base" Version="10.0.0" InternalType="">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0007Release000000000000]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="thirdparty">
+    <VirtualDirectory Name="termbox">
+      <VirtualDirectory Name="termbox-master">
+        <VirtualDirectory Name="src">
+          <VirtualDirectory Name="demo">
+            <File Name="../thirdparty/termbox/termbox-master/src/demo/wscript"/>
+            <File Name="../thirdparty/termbox/termbox-master/src/demo/output.c"/>
+            <File Name="../thirdparty/termbox/termbox-master/src/demo/keyboard.cpp"/>
+          </VirtualDirectory>
+          <File Name="../thirdparty/termbox/termbox-master/src/termbox.h"/>
+          <File Name="../thirdparty/termbox/termbox-master/src/utf8.c"/>
+          <File Name="../thirdparty/termbox/termbox-master/src/wscript"/>
+          <File Name="../thirdparty/termbox/termbox-master/src/bytebuffer.inl"/>
+          <File Name="../thirdparty/termbox/termbox-master/src/input.inl"/>
+          <File Name="../thirdparty/termbox/termbox-master/src/term.inl"/>
+          <File Name="../thirdparty/termbox/termbox-master/src/termbox.c"/>
+        </VirtualDirectory>
+        <File Name="../thirdparty/termbox/termbox-master/waf"/>
+        <File Name="../thirdparty/termbox/termbox-master/wscript"/>
+        <File Name="../thirdparty/termbox/termbox-master/README"/>
+        <File Name="../thirdparty/termbox/termbox-master/COPYING"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="optionparser">
+      <VirtualDirectory Name="optionparser-1.7">
+        <VirtualDirectory Name="src">
+          <File Name="../thirdparty/optionparser/optionparser-1.7/src/printUsage.h"/>
+          <File Name="../thirdparty/optionparser/optionparser-1.7/src/testprintusage.cpp"/>
+          <File Name="../thirdparty/optionparser/optionparser-1.7/src/testparse.cpp"/>
+          <File Name="../thirdparty/optionparser/optionparser-1.7/src/Makefile"/>
+          <File Name="../thirdparty/optionparser/optionparser-1.7/src/example_arg.cc"/>
+          <File Name="../thirdparty/optionparser/optionparser-1.7/src/example.cpp"/>
+          <File Name="../thirdparty/optionparser/optionparser-1.7/src/testodr1.cc"/>
+          <File Name="../thirdparty/optionparser/optionparser-1.7/src/optionparser.h"/>
+          <File Name="../thirdparty/optionparser/optionparser-1.7/src/testodr2.cc"/>
+        </VirtualDirectory>
+        <File Name="../thirdparty/optionparser/optionparser-1.7/README_ARGC_ARGV"/>
+        <File Name="../thirdparty/optionparser/optionparser-1.7/Doxyfile"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="eigen">
+      <VirtualDirectory Name="eigen_db_3_2_8">
+        <VirtualDirectory Name="Eigen">
+          <VirtualDirectory Name="src">
+            <VirtualDirectory Name="Eigen2Support">
+              <VirtualDirectory Name="Geometry">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Geometry/Rotation2D.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Geometry/Scaling.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Geometry/AlignedBox.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Geometry/Quaternion.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Geometry/AngleAxis.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Geometry/ParametrizedLine.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Geometry/Transform.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Geometry/All.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Geometry/Hyperplane.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Geometry/RotationBase.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Geometry/Translation.h"/>
+              </VirtualDirectory>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/CwiseOperators.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Block.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/VectorBlock.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/MathFunctions.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Memory.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/QR.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/TriangularSolver.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/LU.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/LeastSquares.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Lazy.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Minor.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Macros.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Cwise.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/SVD.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigen2Support/Meta.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="Core">
+              <VirtualDirectory Name="arch">
+                <VirtualDirectory Name="Default">
+                  <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/arch/Default/Settings.h"/>
+                </VirtualDirectory>
+                <VirtualDirectory Name="AltiVec">
+                  <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/arch/AltiVec/Complex.h"/>
+                  <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/arch/AltiVec/PacketMath.h"/>
+                </VirtualDirectory>
+                <VirtualDirectory Name="SSE">
+                  <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/arch/SSE/Complex.h"/>
+                  <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/arch/SSE/MathFunctions.h"/>
+                  <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/arch/SSE/PacketMath.h"/>
+                </VirtualDirectory>
+                <VirtualDirectory Name="NEON">
+                  <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/arch/NEON/Complex.h"/>
+                  <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/arch/NEON/PacketMath.h"/>
+                </VirtualDirectory>
+              </VirtualDirectory>
+              <VirtualDirectory Name="products">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/GeneralMatrixMatrix.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/CoeffBasedProduct.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/TriangularMatrixVector_MKL.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/TriangularSolverMatrix.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/TriangularMatrixMatrix_MKL.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_MKL.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/GeneralMatrixMatrix_MKL.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/SelfadjointMatrixMatrix_MKL.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/SelfadjointMatrixVector.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/TriangularMatrixMatrix.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/SelfadjointMatrixVector_MKL.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/SelfadjointProduct.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/Parallelizer.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/GeneralBlockPanelKernel.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/SelfadjointMatrixMatrix.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/SelfadjointRank2Update.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/TriangularSolverVector.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/GeneralMatrixVector.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/GeneralMatrixVector_MKL.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/TriangularMatrixVector.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/products/TriangularSolverMatrix_MKL.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="util">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/util/Memory.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/util/NonMPL2.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/util/BlasUtil.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/util/ForwardDeclarations.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/util/MKL_support.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/util/XprHelper.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/util/Constants.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/util/Macros.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/util/StaticAssert.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/util/ReenableStupidWarnings.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/util/Meta.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/util/DisableStupidWarnings.h"/>
+              </VirtualDirectory>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/VectorwiseOp.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/DenseStorage.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/SelfCwiseBinaryOp.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/CommaInitializer.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Transpositions.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/SelfAdjointView.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/StableNorm.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Fuzzy.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Transpose.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Block.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/VectorBlock.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/ReturnByValue.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/MathFunctions.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Reverse.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/DiagonalProduct.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/EigenBase.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Select.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Assign_MKL.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Flagged.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/DenseCoeffsBase.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/NumTraits.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/CwiseBinaryOp.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/NestByValue.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Stride.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/ArrayWrapper.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/SolveTriangular.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/ArrayBase.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/GeneralProduct.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Map.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Matrix.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Redux.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/GenericPacketMath.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/PlainObjectBase.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/BandMatrix.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Dot.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/ProductBase.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Visitor.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Ref.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/TriangularMatrix.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/CwiseNullaryOp.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/CwiseUnaryView.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/DiagonalMatrix.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/BooleanRedux.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/DenseBase.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/GlobalFunctions.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Functors.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/CwiseUnaryOp.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/PermutationMatrix.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/CoreIterators.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Diagonal.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Replicate.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/MatrixBase.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/IO.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Array.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/NoAlias.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Assign.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/ForceAlignedAccess.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Random.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/Swap.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Core/MapBase.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="Geometry">
+              <VirtualDirectory Name="arch">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/arch/Geometry_SSE.h"/>
+              </VirtualDirectory>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/Rotation2D.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/Scaling.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/AlignedBox.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/OrthoMethods.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/Quaternion.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/AngleAxis.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/ParametrizedLine.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/Transform.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/Homogeneous.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/Umeyama.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/EulerAngles.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/Hyperplane.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/RotationBase.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Geometry/Translation.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="LU">
+              <VirtualDirectory Name="arch">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/LU/arch/Inverse_SSE.h"/>
+              </VirtualDirectory>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/LU/PartialPivLU.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/LU/Inverse.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/LU/Determinant.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/LU/FullPivLU.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/LU/PartialPivLU_MKL.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="SparseCore">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/CompressedStorage.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseColEtree.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseDot.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseMatrix.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/MappedSparseMatrix.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseTriangularView.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/TriangularSolver.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseBlock.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseDenseProduct.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseSparseProductWithPruning.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseRedux.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseUtil.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparsePermutation.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseMatrixBase.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/AmbiVector.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseCwiseUnaryOp.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseView.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseVector.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseSelfAdjointView.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseFuzzy.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseCwiseBinaryOp.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseTranspose.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseDiagonalProduct.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCore/SparseProduct.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="CholmodSupport">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/CholmodSupport/CholmodSupport.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="Eigenvalues">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/RealSchur_MKL.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/ComplexSchur_MKL.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/HessenbergDecomposition.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/Tridiagonalization.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/ComplexSchur.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/RealSchur.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/EigenSolver.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/RealQZ.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/ComplexEigenSolver.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_MKL.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="plugins">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/plugins/ArrayCwiseUnaryOps.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/plugins/MatrixCwiseBinaryOps.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/plugins/ArrayCwiseBinaryOps.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/plugins/CommonCwiseBinaryOps.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/plugins/MatrixCwiseUnaryOps.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/plugins/BlockMethods.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/plugins/CommonCwiseUnaryOps.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="StlSupport">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/StlSupport/StdList.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/StlSupport/StdVector.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/StlSupport/StdDeque.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/StlSupport/details.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="Jacobi">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Jacobi/Jacobi.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="SVD">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SVD/UpperBidiagonalization.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SVD/JacobiSVD_MKL.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SVD/JacobiSVD.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="misc">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/misc/Kernel.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/misc/SparseSolve.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/misc/Solve.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/misc/Image.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/misc/blas.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="SparseLU">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_panel_bmod.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_column_bmod.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_gemm_kernel.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLUImpl.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_Utils.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_panel_dfs.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_kernel_bmod.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_column_dfs.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_pivotL.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_relax_snode.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_Structs.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_Memory.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseLU/SparseLU_pruneL.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="SparseCholesky">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCholesky/SimplicialCholesky.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="SparseQR">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SparseQR/SparseQR.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="UmfPackSupport">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/UmfPackSupport/UmfPackSupport.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="SPQRSupport">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="SuperLUSupport">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/SuperLUSupport/SuperLUSupport.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="Cholesky">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Cholesky/LLT.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Cholesky/LLT_MKL.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Cholesky/LDLT.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="OrderingMethods">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/OrderingMethods/Amd.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/OrderingMethods/Ordering.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/OrderingMethods/Eigen_Colamd.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="PardisoSupport">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/PardisoSupport/PardisoSupport.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="PaStiXSupport">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/PaStiXSupport/PaStiXSupport.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="IterativeLinearSolvers">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="Householder">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Householder/HouseholderSequence.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Householder/Householder.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/Householder/BlockHouseholder.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="MetisSupport">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/MetisSupport/MetisSupport.h"/>
+            </VirtualDirectory>
+            <VirtualDirectory Name="QR">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/QR/FullPivHouseholderQR.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/QR/ColPivHouseholderQR_MKL.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/QR/HouseholderQR.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/QR/HouseholderQR_MKL.h"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/src/QR/ColPivHouseholderQR.h"/>
+            </VirtualDirectory>
+          </VirtualDirectory>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/SparseCore"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/CholmodSupport"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/Sparse"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/Eigenvalues"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/QtAlignedMalloc"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/StdList"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/Jacobi"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/StdVector"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/SVD"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/LeastSquares"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/LU"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/Array"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/Geometry"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/SparseLU"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/SparseCholesky"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/StdDeque"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/Eigen"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/SparseQR"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/Dense"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/UmfPackSupport"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/SPQRSupport"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/SuperLUSupport"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/Cholesky"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/OrderingMethods"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/PardisoSupport"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/PaStiXSupport"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/IterativeLinearSolvers"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/Core"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/Householder"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/Eigen2Support"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/MetisSupport"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/Eigen/QR"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="test">
+          <VirtualDirectory Name="eigen2">
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_array.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/product.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_dynalloc.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_cwiseop.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_sizeof.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_nomalloc.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_hyperplane.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_linearstructure.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_geometry_with_eigen2_prefix.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/gsl_helper.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_lu.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_unalignedassert.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_qr.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_packetmath.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_newstdvector.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_visitor.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_triangular.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_inverse.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_qtvector.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_cholesky.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_svd.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/main.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_adjoint.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_swap.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_sum.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_stdvector.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_eigensolver.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/sparse.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_mixingtypes.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_sparse_solvers.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_miscmatrices.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_prec_inverse_4x4.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_sparse_vector.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_product_large.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_meta.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_basicstuff.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_sparse_basic.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_commainitializer.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_submatrices.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_map.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_smallvectors.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_product_small.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_determinant.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_regression.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_sparse_product.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_bug_132.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_parametrizedline.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_alignedbox.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_geometry.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2/eigen2_first_aligned.cpp"/>
+          </VirtualDirectory>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/array_replicate.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/triangular.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/product.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/swap.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/redux.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/stable_norm.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/jacobi.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/prec_inverse_4x4.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/conjugate_gradient.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/geo_eulerangles.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/cwiseop.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/schur_complex.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/special_numbers.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/visitor.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/commainitializer.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigensolver_complex.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/unalignedassert.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/geo_homogeneous.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/product_symm.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/product_extra.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/sparse_product.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/sparse_solvers.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/conservative_resize.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/selfadjoint.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/determinant.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/meta.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/spqr_support.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/product_mmtr.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/basicstuff.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/upperbidiagonalization.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/geo_orthomethods.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/stdvector.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/geo_hyperplane.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/geo_quaternion.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/product_small.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigen2support.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/array_for_matrix.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/packetmath.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/diagonal.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/sparselu.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/mpl2only.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/zerosized.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/stdvector_overload.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/mapstride.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/dynalloc.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/unalignedcount.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/umfpack_support.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/stddeque.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/qr_colpivoting.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/resize.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/integer_types.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/vectorwiseop.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigensolver_selfadjoint.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/stdlist.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/geo_parametrizedline.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/householder.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/product_syrk.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/main.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/corners.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/exceptions.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/diagonalmatrices.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/superlu_support.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/miscmatrices.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/nesting_ops.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/mapped_matrix.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/rvalue_types.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/vectorization_logic.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/sparse_solver.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/geo_alignedbox.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/sizeof.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/sparse.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/array_reverse.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/product_large.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/hessenberg.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/real_qz.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/cholesky.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/lu.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/linearstructure.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/nullary.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/inverse.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/jacobisvd.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/qr_fullpivoting.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/first_aligned.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigensolver_generic.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/geo_transformations.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/sparse_permutations.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/mixingtypes.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/cholmod_support.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/pastix_support.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/denseLM.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/product_trmm.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/nomalloc.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/pardiso_support.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/product_trsolve.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/eigensolver_generalized_real.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/simplicial_cholesky.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/mapstaticmethods.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/product_selfadjoint.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/ref.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/sparseqr.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/stddeque_overload.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/qtvector.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/product_notemporary.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/sizeoverflow.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/sparse_basic.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/sparseLM.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/metis_support.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/array.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/product_trmv.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/umeyama.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/sparse_vector.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/schur_real.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/bandmatrix.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/dontalign.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/bicgstab.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/smallvectors.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/stdlist_overload.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/permutationmatrices.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/qr.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/block.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/test/adjoint.cpp"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="doc">
+          <VirtualDirectory Name="snippets">
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_AdvancedInitialization_Zero.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_int_topLeftCorner_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_computeInverseAndDetWithCheck.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_transpose.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_ones.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/DirectionWise_replicate.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_ones_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/ComplexEigenSolver_eigenvalues.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_leftCols_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_isIdentity.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/TopicAliasing_mult3.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/RealSchur_RealSchur_MatrixType.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_inverse.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_quotient.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_diagonal_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_int_bottomRightCorner.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_adjoint.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_fixedBlock_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_zero_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_solve_singular.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_solve_triangular.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_topRightCorner_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/DenseBase_LinSpaced_seq.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_commainit_01.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_plus.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/PartialRedux_count.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_all.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_segment.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/SelfAdjointEigenSolver_compute_MatrixType.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_Map_rowmajor.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/HessenbergDecomposition_packedMatrix.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/DenseBase_LinSpaced.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_noalias.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/ComplexEigenSolver_compute.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/HouseholderSequence_HouseholderSequence.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_cwiseNotEqual.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_select.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_random_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_setRandom_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/tut_arithmetic_redux_minmax.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_sin.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_solve_matrix_inverse.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/IOFormat.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_setRandom_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_replicate_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_bottomRows_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_cos.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_computeInverseWithCheck.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/tut_matrix_assignment_resizing.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_AdvancedInitialization_Join.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/DenseBase_setLinSpaced.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_colwise.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_bottomRows.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_int_bottomLeftCorner.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Map_general_stride.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_start.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_sqrt.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/PartialRedux_prod.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/TopicAliasing_cwise.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_Map_using.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/HouseholderQR_householderQ.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_setZero_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_isOrthogonal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/FullPivLU_solve.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_random_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/TopicAliasing_block_correct.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_resize_int_NoChange.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_end_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/RealSchur_compute.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_product.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_set.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/PartialRedux_squaredNorm.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_cwiseEqual.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_marked.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_isDiagonal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/PartialRedux_sum.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tridiagonalization_compute.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_cwiseProduct.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_identity_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_setConstant_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_cwiseSqrt.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_int_bottomRightCorner_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/ComplexEigenSolver_eigenvectors.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/SelfAdjointEigenSolver_eigenvectors.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Jacobi_makeGivens.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/FullPivHouseholderQR_solve.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_AdvancedInitialization_ThreeWays.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/TopicAliasing_mult2.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/TopicStorageOrders_example.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_int_topLeftCorner.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/TopicAliasing_mult1.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_leftCols.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_commainit_01b.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_solve_reuse_decomposition.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/PartialRedux_maxCoeff.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_isUnitary.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_asDiagonal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_setConstant_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tridiagonalization_Tridiagonalization_MatrixType.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/DirectionWise_replicate_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_equal_equal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tridiagonalization_decomposeInPlace.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_cast.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/HouseholderQR_solve.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Jacobi_makeJacobi.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_topRows_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_asin.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/TopicAliasing_block.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_setZero_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_plus_equal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_diagonal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_square.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Map_inner_stride.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_resize_NoChange_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_isZero.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_array_const.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_diagonal_template_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/LLT_solve.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_abs.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/LLT_example.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_rightCols.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Map_simple.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/EigenSolver_compute.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/ComplexSchur_compute.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_min.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/ColPivHouseholderQR_solve.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/EigenSolver_EigenSolver_MatrixType.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_int_topRightCorner_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/SelfAdjointEigenSolver_operatorSqrt.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_row.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_minus.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/PartialRedux_minCoeff.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_inverse.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_abs2.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_cube.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_zero_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/tut_arithmetic_transpose_aliasing.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/SelfAdjointEigenSolver_compute_MatrixType2.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tridiagonalization_householderCoefficients.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Map_outer_stride.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/SelfAdjointEigenSolver_SelfAdjointEigenSolver.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_resize_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_rightCols_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_AdvancedInitialization_Block.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_setOnes_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_reverse.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_cwiseAbs.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_cwiseQuotient.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/HessenbergDecomposition_compute.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_replicate.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_applyOnTheRight.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/EigenSolver_eigenvectors.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/AngleAxis_mimic_euler.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_start_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_boolean_and.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_cwiseMax.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_boolean_or.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/FullPivLU_image.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_AdvancedInitialization_LinSpaced.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/JacobiSVD_basic.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/GeneralizedEigenSolver.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_greater.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tridiagonalization_packedMatrix.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_topRows.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_exp.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_eigenvalues.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/ComplexSchur_matrixU.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_extract.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Map_placement_new.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_cwiseMin.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_less_equal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_pow.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Vectorwise_reverse.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_setOnes_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_identity.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_part.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_less.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_random.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_max.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/SelfAdjointEigenSolver_operatorInverseSqrt.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_setRandom.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/class_FullPivLU.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tridiagonalization_diagonal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_prod.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_block_int_int_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_operatorNorm.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_cwiseAbs2.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_block_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_applyOnTheLeft.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/tut_arithmetic_transpose_inplace.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/RealQZ_compute.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/FullPivLU_kernel.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_cwiseInverse.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_minus_equal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_setOnes.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_int_block_int_int_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_setZero.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/HessenbergDecomposition_matrixH.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_segment_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_slash_equal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_topLeftCorner_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_setIdentity_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_times_equal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_tan.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_setIdentity.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_bottomRightCorner_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_not_equal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_int_bottomLeftCorner_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/SelfAdjointView_operatorNorm.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/ComplexSchur_matrixT.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_greater_equal.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_rowwise.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_col.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Matrix_resize_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/EigenSolver_eigenvalues.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_array.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_acos.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/PartialRedux_norm.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_zero.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Cwise_log.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_commainit_02.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/PartialPivLU_solve.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_isOnes.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_AdvancedInitialization_CommaTemporary.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_end.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/EigenSolver_pseudoEigenvectors.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_bottomLeftCorner_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_eval.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_ones_int_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_solve_triangular_inplace.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/SelfAdjointEigenSolver_eigenvalues.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/SelfAdjointView_eigenvalues.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/Tutorial_solve_multiple_rhs.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/tut_arithmetic_transpose_conjugate.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/snippets/MatrixBase_template_int_int_topRightCorner.cpp"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="examples">
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_colwise.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ArrayClass_interop.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_simple_example_fixed_size.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/class_CwiseUnaryOp_ptrfun.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/matrixfree_cg.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/TutorialLinAlgSetThreshold.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/TutorialLinAlgSelfAdjointEigenSolver.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/class_FixedBlock.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/function_taking_eigenbase.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/class_Block.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/QuickStart_example2_dynamic.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/tut_arithmetic_dot_cross.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/DenseBase_template_int_middleCols.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/class_CwiseBinaryOp.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/tut_arithmetic_matrix_mul.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_rowwise.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/tut_arithmetic_add_sub.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/QuickStart_example2_fixed.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/tut_arithmetic_scalar_mul_div.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/TutorialLinAlgRankRevealing.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ArrayClass_cwise_other.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/TutorialLinAlgExSolveLDLT.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/MatrixBase_cwise_const.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/DenseBase_middleRows_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/class_CwiseUnaryOp.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/TemplateKeyword_flexible.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/TemplateKeyword_simple.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_BlockOperations_print_block.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/tut_arithmetic_redux_basic.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_BlockOperations_colrow.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_BlockOperations_corner.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/class_VectorBlock.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/class_FixedVectorBlock.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_visitors.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/TutorialLinAlgComputeTwice.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_simple_example_dynamic_size.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/tut_matrix_coefficient_accessors.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/DenseBase_template_int_middleRows.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/DenseBase_middleCols_int.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/tut_matrix_resize.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/QuickStart_example.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ArrayClass_mult.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/TutorialLinAlgExComputeSolveError.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_BlockOperations_block_assignment.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/TutorialLinAlgSVDSolve.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ArrayClass_interop_matrix.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/function_taking_ref.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ArrayClass_addition.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_PartialLU_solve.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/TutorialLinAlgExSolveColPivHouseholderQR.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/tut_matrix_resize_fixed_size.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/TutorialLinAlgInverseDeterminant.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ArrayClass_accessors.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_BlockOperations_vector.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/examples/Tutorial_ReductionsVisitorsBroadcasting_maxnorm.cpp"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="special_examples">
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/special_examples/Tutorial_sparse_example_details.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/special_examples/Tutorial_sparse_example.cpp"/>
+          </VirtualDirectory>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/doc/tutorial.cpp"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="demos">
+          <VirtualDirectory Name="mix_eigen_and_c">
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/mix_eigen_and_c/binary_library.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/mix_eigen_and_c/example.c"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/mix_eigen_and_c/binary_library.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/mix_eigen_and_c/README"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="opengl">
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/opengl/icosphere.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/opengl/quaternion_demo.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/opengl/gpuhelper.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/opengl/trackball.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/opengl/icosphere.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/opengl/camera.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/opengl/gpuhelper.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/opengl/camera.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/opengl/trackball.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/opengl/README"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/opengl/quaternion_demo.cpp"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="mandelbrot">
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/mandelbrot/mandelbrot.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/mandelbrot/mandelbrot.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/demos/mandelbrot/README"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="bench">
+          <VirtualDirectory Name="btl">
+            <VirtualDirectory Name="libs">
+              <VirtualDirectory Name="tvmet">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/tvmet/main.cpp"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="mtl4">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/mtl4/main.cpp"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="ublas">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/ublas/main.cpp"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="blitz">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/blitz/btl_tiny_blitz.cpp"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/blitz/btl_blitz.cpp"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="STL">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/STL/main.cpp"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="eigen3">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/eigen3/main_vecmat.cpp"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/eigen3/main_linear.cpp"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/eigen3/main_matmat.cpp"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/eigen3/main_adv.cpp"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/eigen3/btl_tiny_eigen3.cpp"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="eigen2">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/eigen2/main_vecmat.cpp"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/eigen2/main_linear.cpp"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/eigen2/main_matmat.cpp"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/eigen2/main_adv.cpp"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/eigen2/btl_tiny_eigen2.cpp"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="BLAS">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/BLAS/c_interface_base.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/BLAS/blas.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/BLAS/main.cpp"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="gmm">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/libs/gmm/main.cpp"/>
+              </VirtualDirectory>
+            </VirtualDirectory>
+            <VirtualDirectory Name="generic_bench">
+              <VirtualDirectory Name="utils">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/generic_bench/utils/utilities.h"/>
+              </VirtualDirectory>
+            </VirtualDirectory>
+            <VirtualDirectory Name="data">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/data/go_mean"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/data/mean.cxx"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/data/regularize.cxx"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/data/smooth.cxx"/>
+            </VirtualDirectory>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/README"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/btl/COPYING"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="spbench">
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/spbench/spbenchstyle.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/spbench/spbenchsolver.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/spbench/spbenchsolver.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/spbench/sp_solver.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/spbench/test_sparseLU.cpp"/>
+          </VirtualDirectory>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/bench_sum.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/check_cache_queries.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/benchmarkX.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/benchVecAdd.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/quatmul.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/sparse_product.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/geometry.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/benchGeometry.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/basicbenchmark.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/BenchSparseUtil.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/benchmark.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/bench_unrolling"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/sparse_setter.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/sparse_dense_product.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/bench_gemm.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/eig33.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/product_threshold.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/BenchUtil.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/sparse_cholesky.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/benchCholesky.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/benchmark_suite"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/benchFFT.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/bench_norm.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/vdw_new.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/benchBlasGemm.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/sparse_randomsetter.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/spmv.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/benchmarkSlice.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/sparse_lu.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/bench_reverse.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/sparse_trisolver.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/benchmarkXcwise.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/quat_slerp.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/benchEigenSolver.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/sparse_transpose.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/BenchTimer.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/bench/basicbenchmark.cpp"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="unsupported">
+          <VirtualDirectory Name="Eigen">
+            <VirtualDirectory Name="src">
+              <VirtualDirectory Name="IterativeSolvers">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/IterativeSolvers/Scaling.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/IterativeSolvers/GMRES.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/IterativeSolvers/IncompleteCholesky.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/IterativeSolvers/ConstrainedConjGrad.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/IterativeSolvers/MINRES.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/IterativeSolvers/IncompleteLU.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/IterativeSolvers/IterationController.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/IterativeSolvers/DGMRES.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="Eigenvalues">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Eigenvalues/ArpackSelfAdjointEigenSolver.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="LevenbergMarquardt">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/LevenbergMarquardt/LevenbergMarquardt.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/LevenbergMarquardt/LMpar.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/LevenbergMarquardt/LMcovar.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/LevenbergMarquardt/LMqrsolv.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/LevenbergMarquardt/LMonestep.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="Skyline">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Skyline/SkylineMatrixBase.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Skyline/SkylineInplaceLU.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Skyline/SkylineStorage.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Skyline/SkylineUtil.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Skyline/SkylineProduct.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Skyline/SkylineMatrix.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="MatrixFunctions">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/MatrixFunctions/MatrixFunction.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/MatrixFunctions/MatrixSquareRoot.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/MatrixFunctions/MatrixFunctionAtomic.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/MatrixFunctions/StemFunction.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/MatrixFunctions/MatrixPower.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/MatrixFunctions/MatrixLogarithm.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/MatrixFunctions/MatrixExponential.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="SVD">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/SVD/BDCSVD.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/SVD/JacobiSVD.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/SVD/SVDBase.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="Splines">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Splines/Spline.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Splines/SplineFwd.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Splines/SplineFitting.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="AutoDiff">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/AutoDiff/AutoDiffScalar.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/AutoDiff/AutoDiffVector.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/AutoDiff/AutoDiffJacobian.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="KroneckerProduct">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/KroneckerProduct/KroneckerTensorProduct.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="BVH">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/BVH/KdBVH.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/BVH/BVAlgorithms.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="FFT">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/FFT/ei_kissfft_impl.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/FFT/ei_fftw_impl.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="NumericalDiff">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/NumericalDiff/NumericalDiff.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="Polynomials">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Polynomials/PolynomialUtils.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Polynomials/Companion.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/Polynomials/PolynomialSolver.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="SparseExtra">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/SparseExtra/DynamicSparseMatrix.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/SparseExtra/MatrixMarketIterator.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/SparseExtra/BlockOfDynamicSparseMatrix.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/SparseExtra/MarketIO.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/SparseExtra/RandomSetter.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="NonLinearOptimization">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/NonLinearOptimization/chkder.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/NonLinearOptimization/covar.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/NonLinearOptimization/LevenbergMarquardt.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/NonLinearOptimization/dogleg.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/NonLinearOptimization/r1mpyq.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/NonLinearOptimization/r1updt.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/NonLinearOptimization/rwupdt.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/NonLinearOptimization/fdjac1.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/NonLinearOptimization/HybridNonLinearSolver.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/NonLinearOptimization/lmpar.h"/>
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/NonLinearOptimization/qrsolv.h"/>
+              </VirtualDirectory>
+              <VirtualDirectory Name="MoreVectorization">
+                <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/src/MoreVectorization/MathFunctions.h"/>
+              </VirtualDirectory>
+            </VirtualDirectory>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/IterativeSolvers"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/AdolcForward"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/LevenbergMarquardt"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/MPRealSupport"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/Skyline"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/MatrixFunctions"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/AlignedVector3"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/SVD"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/Splines"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/ArpackSupport"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/AutoDiff"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/KroneckerProduct"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/OpenGLSupport"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/BVH"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/FFT"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/NumericalDiff"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/Polynomials"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/SparseExtra"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/NonLinearOptimization"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/Eigen/MoreVectorization"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="test">
+            <VirtualDirectory Name="mpreal">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/mpreal/mpreal.h"/>
+            </VirtualDirectory>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/mpreal_support.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/autodiff.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/gmres.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/matrix_functions.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/dgmres.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/FFTW.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/polynomialsolver.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/matrix_power.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/BVH.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/levenberg_marquardt.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/forward_adolc.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/matrix_function.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/matrix_exponential.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/NumericalDiff.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/FFT.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/jacobisvd.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/matrix_square_root.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/kronecker_product.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/minres.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/alignedvector3.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/openglsupport.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/polynomialutils.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/splines.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/svd_common.h"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/sparse_extra.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/NonLinearOptimization.cpp"/>
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/test/bdcsvd.cpp"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="doc">
+            <VirtualDirectory Name="examples">
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/doc/examples/MatrixSquareRoot.cpp"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/doc/examples/MatrixPower_optimal.cpp"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/doc/examples/MatrixSine.cpp"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/doc/examples/MatrixLogarithm.cpp"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/doc/examples/BVH_Example.cpp"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/doc/examples/PolynomialSolver1.cpp"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/doc/examples/MatrixSinh.cpp"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/doc/examples/MatrixPower.cpp"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/doc/examples/FFT.cpp"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/doc/examples/MatrixExponential.cpp"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/doc/examples/PolynomialUtils1.cpp"/>
+              <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/doc/examples/MatrixFunction.cpp"/>
+            </VirtualDirectory>
+          </VirtualDirectory>
+          <VirtualDirectory Name="bench">
+            <File Name="../thirdparty/eigen/eigen_db_3_2_8/unsupported/bench/bench_svd.cpp"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="scripts">
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/scripts/eigen_gen_docs"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/scripts/eigen_gen_credits.cpp"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="lapack">
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/lapack/complex_single.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/lapack/complex_double.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/lapack/single.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/lapack/double.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/lapack/eigenvalues.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/lapack/cholesky.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/lapack/lu.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/lapack/lapack_common.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="blas">
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/PackedTriangularMatrixVector.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/level3_impl.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/complex_single.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/complex_double.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/level2_real_impl.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/level2_impl.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/level2_cplx_impl.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/GeneralRank1Update.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/single.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/PackedSelfadjointProduct.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/double.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/xerbla.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/common.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/level1_cplx_impl.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/BandTriangularSolver.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/level1_real_impl.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/level1_impl.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/Rank2Update.h"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/blas/PackedTriangularSolverVector.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="failtest">
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/qr_int.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/const_qualified_block_method_retval_1.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/block_on_const_type_actually_const_1.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/ldlt_int.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/transpose_on_const_type_actually_const.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/jacobisvd_int.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/diagonal_nonconst_ctor_on_const_xpr.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/llt_int.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/eigensolver_int.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/const_qualified_transpose_method_retval.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/const_qualified_diagonal_method_retval.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/block_nonconst_ctor_on_const_xpr_1.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/colpivqr_int.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/block_nonconst_ctor_on_const_xpr_0.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/failtest_sanity_check.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/map_nonconst_ctor_on_const_ptr_4.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/block_nonconst_ctor_on_const_xpr_2.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/transpose_nonconst_ctor_on_const_xpr.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/map_nonconst_ctor_on_const_ptr_2.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/diagonal_on_const_type_actually_const.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/partialpivlu_int.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/map_on_const_type_actually_const_1.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/ref_4.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/ref_1.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/ref_2.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/map_on_const_type_actually_const_0.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/fullpivqr_int.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/ref_3.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/map_nonconst_ctor_on_const_ptr_1.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/const_qualified_block_method_retval_0.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/map_nonconst_ctor_on_const_ptr_3.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/eigensolver_cplx.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/block_on_const_type_actually_const_0.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/fullpivlu_int.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/ref_5.cpp"/>
+          <File Name="../thirdparty/eigen/eigen_db_3_2_8/failtest/map_nonconst_ctor_on_const_ptr_0.cpp"/>
+        </VirtualDirectory>
+        <File Name="../thirdparty/eigen/eigen_db_3_2_8/INSTALL"/>
+        <File Name="../thirdparty/eigen/eigen_db_3_2_8/signature_of_eigen3_matrix_library"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="libuv">
+      <VirtualDirectory Name="libuv-v1.9.1">
+        <VirtualDirectory Name="src">
+          <VirtualDirectory Name="unix">
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/process.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/loop.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/spinlock.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/dl.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/pthread-fixes.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/openbsd.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/pthread-barrier.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/getaddrinfo.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/core.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/getnameinfo.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/proctitle.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/fsevents.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/udp.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/darwin.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/loop-watcher.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/timer.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/poll.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/linux-core.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/linux-syscalls.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/aix.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/kqueue.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/fs.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/tty.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/atomic-ops.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/async.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/sunos.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/tcp.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/netbsd.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/linux-syscalls.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/stream.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/android-ifaddrs.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/internal.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/pipe.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/thread.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/darwin-proctitle.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/signal.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/freebsd.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/unix/linux-inotify.c"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="win">
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/stream-inl.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/handle-inl.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/atomicops-inl.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/process.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/dl.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/winsock.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/process-stdio.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/error.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/getaddrinfo.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/winapi.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/core.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/winsock.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/getnameinfo.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/udp.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/loop-watcher.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/timer.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/poll.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/fs.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/tty.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/async.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/tcp.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/req-inl.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/stream.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/util.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/internal.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/pipe.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/handle.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/winapi.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/fs-event.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/thread.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/req.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/signal.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/src/win/snprintf.c"/>
+          </VirtualDirectory>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/src/queue.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/src/threadpool.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/src/uv-common.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/src/heap-inl.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/src/fs-poll.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/src/inet.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/src/version.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/src/uv-common.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="docs">
+          <VirtualDirectory Name="src">
+            <VirtualDirectory Name="static">
+              <VirtualDirectory Name="diagrams.key">
+                <VirtualDirectory Name="Metadata">
+                  <File Name="../thirdparty/libuv/libuv-v1.9.1/docs/src/static/diagrams.key/Metadata/DocumentIdentifier"/>
+                </VirtualDirectory>
+              </VirtualDirectory>
+            </VirtualDirectory>
+          </VirtualDirectory>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/docs/Makefile"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="test">
+          <VirtualDirectory Name="fixtures">
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/test/fixtures/empty_file"/>
+          </VirtualDirectory>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-bind.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-close-accept.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-dlerror.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-shutdown-eof.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-get-passwd.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-write-queue-order.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-timer-from-check.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-sizes.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-idle.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-pipe-connect-prepare.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-eintr-handling.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-ip6-addr.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-threadpool-cancel.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-list.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-delayed-accept.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-read-stop.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-write-fail.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-fs-stat.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-loop-alive.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-condvar.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-thread-equal.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-pipe-pending-instances.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-default-loop-close.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-try-send.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-getsockname.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-signal-multiple-loops.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-shutdown-close.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-platform-output.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-get-loadavg.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-spawn.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-close-while-connecting.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-callback-stack.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-million-timers.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-connect6-error.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-million-async.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-pipe-close-stdout-read-stdin.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-threadpool.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-cwd-and-chdir.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-pipe-connect-multiple.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-shutdown-twice.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-tcp-write-batch.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-callback-order.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-connection-fail.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-async.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-process-title.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-run-once.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-handle-fileno.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-try-write.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-loop-handles.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-create-socket-early.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-ip4-addr.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-pipe-connect-error.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-active.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-pipe-sendmsg.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-walk-handles.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-connect-error-after-write.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-thread.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/echo-server.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-poll-close.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/runner-win.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/run-benchmarks.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-poll.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-osx-select.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-fs-event.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-close-order.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-embed.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-list.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-pump.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-multi-accept.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-async-pummel.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-get-memory.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-pipe-server-close.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-loop-close.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-loop-count.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-multiple-listen.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-writealot.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-fs.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-poll-closesocket.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-multicast-join.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-send-immediate.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-pipe-getsockname.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-udp-pummel.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-oob.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-loop-configure.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-getnameinfo.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-options.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-connect-error.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-send-unreachable.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-run-nowait.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-open.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-spawn.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-ipc-send-recv.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-getaddrinfo.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-ping-pong.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-fail-always.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-loop-stop.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-socket-buffer-size.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-write-after-connect.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-close.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-pipe-set-non-blocking.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-dgram-too-big.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-emfile.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/run-tests.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-timer-again.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-hrtime.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-ping-pongs.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/runner-win.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/task.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-write-to-half-open-connection.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-get-currentexe.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-create-socket-early.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-mutexes.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-signal.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-homedir.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-multicast-interface6.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/runner-unix.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/blackhole-server.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tty.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-pound.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-barrier.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-stdio-over-pipes.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-poll-close-doesnt-corrupt-stack.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-pipe-bind-error.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-pass-always.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-ipv6.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-fs-poll.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-bind-error.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-timer.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-multicast-interface.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-watcher-cross-stop.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-error.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-getaddrinfo.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tmpdir.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-bind6-error.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/runner.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-send-and-recv.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-ref.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-multicast-ttl.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-flags.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-loop-time.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-queue-foreach-delete.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/runner.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-shutdown-after-write.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-connect-timeout.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-unexpected-read.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-udp-multicast-join6.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-ipc.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-async-null-cb.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/runner-unix.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-async.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-tcp-open.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-close-fd.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/test-semaphore.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/dns-server.c"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/test/benchmark-thread.c"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="samples">
+          <VirtualDirectory Name="socks5-proxy">
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/samples/socks5-proxy/main.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/samples/socks5-proxy/s5.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/samples/socks5-proxy/Makefile"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/samples/socks5-proxy/client.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/samples/socks5-proxy/defs.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/samples/socks5-proxy/getopt.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/samples/socks5-proxy/server.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/samples/socks5-proxy/s5.h"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/samples/socks5-proxy/util.c"/>
+            <File Name="../thirdparty/libuv/libuv-v1.9.1/samples/socks5-proxy/LICENSE"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="include">
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/uv-version.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/uv-bsd.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/uv-errno.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/pthread-barrier.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/uv-win.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/stdint-msvc2008.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/uv-darwin.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/uv-threadpool.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/tree.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/uv.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/uv-sunos.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/uv-linux.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/android-ifaddrs.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/uv-aix.h"/>
+          <File Name="../thirdparty/libuv/libuv-v1.9.1/include/uv-unix.h"/>
+        </VirtualDirectory>
+        <File Name="../thirdparty/libuv/libuv-v1.9.1/ChangeLog"/>
+        <File Name="../thirdparty/libuv/libuv-v1.9.1/android-configure"/>
+        <File Name="../thirdparty/libuv/libuv-v1.9.1/LICENSE"/>
+        <File Name="../thirdparty/libuv/libuv-v1.9.1/AUTHORS"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="lcm">
+      <VirtualDirectory Name="lcm-1.3.1">
+        <VirtualDirectory Name="WinSpecific">
+          <VirtualDirectory Name="include">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/WinSpecific/include/stdint.h"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/WinSpecific/include/inttypes.h"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="getopt">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/WinSpecific/getopt/getopt.h"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/WinSpecific/getopt/getopt.c"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/WinSpecific/getopt/getopt_long.c"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/WinSpecific/getopt/getopt_long.h"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="test">
+          <VirtualDirectory Name="gtest">
+            <VirtualDirectory Name="include">
+              <VirtualDirectory Name="gtest">
+                <VirtualDirectory Name="internal">
+                  <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/internal/gtest-internal.h"/>
+                  <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/internal/gtest-type-util.h"/>
+                  <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/internal/gtest-string.h"/>
+                  <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/internal/gtest-param-util-generated.h"/>
+                  <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/internal/gtest-death-test-internal.h"/>
+                  <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/internal/gtest-tuple.h"/>
+                  <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/internal/gtest-param-util.h"/>
+                  <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/internal/gtest-filepath.h"/>
+                  <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/internal/gtest-linked_ptr.h"/>
+                  <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/internal/gtest-port.h"/>
+                </VirtualDirectory>
+                <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/gtest-test-part.h"/>
+                <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/gtest-printers.h"/>
+                <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/gtest-death-test.h"/>
+                <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/gtest-param-test.h"/>
+                <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/gtest_prod.h"/>
+                <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/gtest.h"/>
+                <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/gtest-typed-test.h"/>
+                <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/gtest_pred_impl.h"/>
+                <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/gtest-spi.h"/>
+                <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/include/gtest/gtest-message.h"/>
+              </VirtualDirectory>
+            </VirtualDirectory>
+            <VirtualDirectory Name="src">
+              <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/src/gtest-all.cc"/>
+              <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/src/gtest-filepath.cc"/>
+              <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/src/gtest-typed-test.cc"/>
+              <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/src/gtest_main.cc"/>
+              <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/src/gtest-port.cc"/>
+              <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/src/gtest-test-part.cc"/>
+              <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/src/gtest-death-test.cc"/>
+              <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/src/gtest-internal-inl.h"/>
+              <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/src/gtest-printers.cc"/>
+              <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/src/gtest.cc"/>
+            </VirtualDirectory>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/Makefile"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/README"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/gtest/LICENSE"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="java">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/java/Makefile"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="cpp">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/cpp/common.cpp"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/cpp/Makefile"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/cpp/client.cpp"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/cpp/memq_test.cpp"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/cpp/common.hpp"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="c">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/c/common.c"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/c/Makefile"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/c/client.cpp"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/c/memq_test.cpp"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/c/common.h"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/c/server.c"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/c/udpm_test.cpp"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/c/eventlog_test.cpp"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="lua">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/lua/Makefile"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="python">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/test/python/Makefile"/>
+          </VirtualDirectory>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/test/Makefile"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/test/README"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="lcm">
+          <VirtualDirectory Name="windows">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/windows/WinPorting.cpp"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/windows/WinLCM.cpp"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/windows/WinPorting.h"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="lcmtypes">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcmtypes/channel_port_map_update_t.h"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcmtypes/channel_port_map_update_t.c"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcmtypes/channel_to_port_t.h"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcmtypes/channel_to_port_t.c"/>
+          </VirtualDirectory>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/udpm_util.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/eventlog.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcm_coretypes.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcm_udpm.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/udpm_util.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcm.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcm_tcpq.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcm_memq.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/eventlog.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/ringbuffer.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcm_internal.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/ioutils.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcm_file.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcm_mpudpm.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcm-cpp-impl.hpp"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/dbg.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/ringbuffer.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcm-cpp.hpp"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm/lcm.c"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="examples">
+          <VirtualDirectory Name="cpp">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/examples/cpp/Makefile"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/examples/cpp/read_log.cpp"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/examples/cpp/listener.cpp"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/examples/cpp/send_message.cpp"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="c">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/examples/c/listener-glib.c"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/examples/c/listener.c"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/examples/c/Makefile"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/examples/c/send_message.c"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/examples/c/listener-async.c"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/examples/c/read_log.c"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="matlab">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/examples/matlab/README"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="lcm-java">
+          <VirtualDirectory Name="jchart2d-code">
+            <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-java/jchart2d-code/NOTICE-apache-xmlgraphics-commons"/>
+            <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-java/jchart2d-code/LICENSE-apache-xmlgraphics-commons"/>
+          </VirtualDirectory>
+        </VirtualDirectory>
+        <VirtualDirectory Name="lcm-lua">
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lua/lualcm_hash.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lua/lualcm_lcm.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lua/lua_ref_helper.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lua/init.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lua/debug_support.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lua/lualcm_hash.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lua/lualcm_lcm.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lua/lua_ver_helper.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lua/lualcm_pack.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lua/utf8_check.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lua/lua_ref_helper.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lua/lualcm_pack.c"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="liblcm-test">
+          <File Name="../thirdparty/lcm/lcm-1.3.1/liblcm-test/lcm-sink.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/liblcm-test/lcm-logfilter.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/liblcm-test/lcm-tester.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/liblcm-test/buftest-sender.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/liblcm-test/lcm-source.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/liblcm-test/buftest-receiver.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/liblcm-test/lcm-example.c"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="lcm-python">
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-python/pylcm_subscription.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-python/pylcm.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-python/pylcm.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-python/pylcm_subscription.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-python/module.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-python/pyeventlog.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-python/README"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-python/COPYING"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="m4macros">
+          <File Name="../thirdparty/lcm/lcm-1.3.1/m4macros/README"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="lcm-lite">
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lite/lcmlite_ios.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lite/lcmlite_ios.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lite/lcmlite.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lite/lcmlite.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lite/lcmlite_posix.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-lite/README"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="lcm-logger">
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-logger/glib_util.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-logger/lcm_logplayer.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-logger/glib_util.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-logger/lcm_logger.c"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="lcmgen">
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/main.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/getopt.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/emit_cpp.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/emit_java.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/tokenize.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/getopt.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/emit_lua.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/emit_python.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/tokenize.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/lcmgen.h"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/emit_csharp.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/emit_c.c"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcmgen/lcmgen.c"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="lcm-dotnet">
+          <File Name="../thirdparty/lcm/lcm-1.3.1/lcm-dotnet/Doxyfile"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="docs">
+          <File Name="../thirdparty/lcm/lcm-1.3.1/docs/release_checklist"/>
+          <File Name="../thirdparty/lcm/lcm-1.3.1/docs/Doxyfile"/>
+        </VirtualDirectory>
+        <File Name="../thirdparty/lcm/lcm-1.3.1/INSTALL"/>
+        <File Name="../thirdparty/lcm/lcm-1.3.1/install-sh"/>
+        <File Name="../thirdparty/lcm/lcm-1.3.1/compile"/>
+        <File Name="../thirdparty/lcm/lcm-1.3.1/NEWS"/>
+        <File Name="../thirdparty/lcm/lcm-1.3.1/depcomp"/>
+        <File Name="../thirdparty/lcm/lcm-1.3.1/py-compile"/>
+        <File Name="../thirdparty/lcm/lcm-1.3.1/configure"/>
+        <File Name="../thirdparty/lcm/lcm-1.3.1/missing"/>
+        <File Name="../thirdparty/lcm/lcm-1.3.1/AUTHORS"/>
+        <File Name="../thirdparty/lcm/lcm-1.3.1/COPYING"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="src">
+    <VirtualDirectory Name="module1">
+      <File Name="../src/module1/factorial1.c"/>
+    </VirtualDirectory>
+    <File Name="../src/factorial.cpp"/>
+    <File Name="../src/main_test.cpp"/>
+    <File Name="../src/main_uv.cpp"/>
+    <File Name="../src/cli_args.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <VirtualDirectory Name="module1">
+      <File Name="../include/module1/factorial1.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="cppbase">
+      <File Name="../include/cppbase/cppbase.hpp"/>
+      <File Name="../include/cppbase/factorial.hpp"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Dynamic Library">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="" IntermediateDirectory="./Debug" Command="$(WorkspacePath)/cmake-build-$(WorkspaceConfiguration)/output/$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="CMake"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand/>
+        <CleanCommand>make clean</CleanCommand>
+        <BuildCommand>make</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory>$(WorkspacePath)</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="GCC" DebuggerType="GNU gdb debugger" Type="Dynamic Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O2" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="" IntermediateDirectory="./Release" Command="$(WorkspacePath)/cmake-build-$(WorkspaceConfiguration)/output/$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="CMake"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="yes">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand>./cmake_cmd.sh</BuildCommand>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory>$(WorkspacePath)</WorkingDirectory>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+  <VirtualDirectory Name="test">
+    <File Name="../test/testFactorial.cpp"/>
+    <File Name="../test/testCppbase.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="uxvworks_base">
+    <File Name="../CMakeLists.txt"/>
+    <File Name="../Dependencies.cmake"/>
+    <File Name="../ProjectFiles.cmake"/>
+  </VirtualDirectory>
+</CodeLite_Project>

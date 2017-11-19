@@ -5,11 +5,17 @@
 # Set project source files.
 set(SRC
   "${SRC_PATH}/factorial.cpp"
+  "${SRC_PATH}/main_test.cpp"
+  "${SRC_PATH}/cli_args.cpp"
+  "${MODULE1_PATH}/factorial1.c"
+  "${TERMBOX_PATH}/demo/keyboard.cpp"
+  "${TERMBOX_PATH}/termbox.c"
+  "${TERMBOX_PATH}/utf8.c"
 )
 
 # Set project main file.
 set(MAIN_SRC
-  "${SRC_PATH}/main.cpp"
+  "${SRC_PATH}/main_uv.cpp"
 )
 
 # Set project test source files.
