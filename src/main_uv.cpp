@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdint.h>
+#include <inttypes.h>
+
 #include <uv.h>
 #include <lcm/lcm.h>
 
@@ -37,14 +40,14 @@ void timer_func(uv_timer_t* handle)
 
 void signal_handler(uv_signal_t* handle, int signum)
 {
-    fprintf(stderr, "%14lu: Signal received: %d\n\r", uv_hrtime(), signum);
+    fprintf(stderr, "%14" PRIu64 ": Signal received: %d\n\r", static_cast<uint64_t> (uv_hrtime()), signum);
 
     if (signum == SIGWINCH) {
         sigwinch_handler(signum);
     } else {
         uv_signal_stop(handle);
         gShutdown = true; //uv_stop(uv_default_loop());
-        fprintf(stderr, "%14lu: shutting down...\n\r", uv_hrtime());
+        fprintf(stderr, "%14" PRIu64 ": shutting down...\n\r", static_cast<uint64_t> (uv_hrtime()));
     }
 }
 
@@ -52,9 +55,9 @@ int main(int argc, char* argv[])
 {
     if (process_cli_args(argc, argv) < 0) return (1);
 
-    fprintf(stdout,"\n\r%14lu: starting %s\n\r", uv_hrtime(), argv[0]);
-    fprintf(stdout,    "%14lu: using libuv version %s\n\r", uv_hrtime(), uv_version_string());
-    fprintf(stdout,    "%14lu: using lcm version %d.%d.%d\n\r", uv_hrtime(), LCM_MAJOR_VERSION, LCM_MINOR_VERSION, LCM_MICRO_VERSION);
+    fprintf(stdout,"\n\r%14" PRIu64 ": starting %s\n\r", static_cast<uint64_t> (uv_hrtime()), argv[0]);
+    fprintf(stdout,    "%14" PRIu64 ": using libuv version %s\n\r", static_cast<uint64_t> (uv_hrtime()), uv_version_string());
+    fprintf(stdout,    "%14" PRIu64 ": using lcm version %d.%d.%d\n\r", static_cast<uint64_t> (uv_hrtime()), LCM_MAJOR_VERSION, LCM_MINOR_VERSION, LCM_MICRO_VERSION);
 
     gLoop = (uv_loop_t*)malloc(sizeof(uv_loop_t));
     uv_loop_init(gLoop);
@@ -92,6 +95,6 @@ int main(int argc, char* argv[])
     uv_tty_reset_mode();
     free(gLoop);
 
-    fprintf(stdout, "%14lu: exiting...\n\r", uv_hrtime());
+    fprintf(stdout, "%14" PRIu64 ": exiting...\n\r", static_cast<uint64_t> (uv_hrtime()));
     return (0);
 }
