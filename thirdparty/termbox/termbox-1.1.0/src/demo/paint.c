@@ -1,4 +1,4 @@
-#include "termbox.h"
+#include "../termbox.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -94,49 +94,37 @@ void reallocBackBuffer(int w, int h) {
 	bbh = h;
 	if (backbuf)
 		free(backbuf);
-	backbuf = (tb_cell*)calloc(sizeof(struct tb_cell), w*h);
+	backbuf = calloc(sizeof(struct tb_cell), w*h);
 }
 
-int dashboard_start(void)
-{
-    int ret;
+int main(int argv, char **argc) {
+	int code = tb_init();
+	if (code < 0) {
+		fprintf(stderr, "termbox init failed, code: %d\n", code);
+		return -1;
+	}
 
-    ret = tb_init();
-    if (ret) {
-        fprintf(stderr, "tb_init() failed with error code %d\n", ret);
-        return -1;
-    }
-
-
-    tb_select_input_mode(TB_INPUT_ESC | TB_INPUT_MOUSE);
+	tb_select_input_mode(TB_INPUT_ESC | TB_INPUT_MOUSE);
 	int w = tb_width();
 	int h = tb_height();
 	reallocBackBuffer(w, h);
 	updateAndRedrawAll(-1, -1);
-
-    return 0;
-}
-
-int dashboard_run(void) {
-
-    struct tb_event ev;
-    
-    int event = tb_peek_event(&ev, 0);
-    
-    if (event != 0) {
+	for (;;) {
+		struct tb_event ev;
 		int mx = -1;
 		int my = -1;
-		if (event == -1) {
+		int t = tb_poll_event(&ev);
+		if (t == -1) {
 			tb_shutdown();
 			fprintf(stderr, "termbox poll event error\n");
 			return -1;
 		}
 
-		switch (event) {
+		switch (t) {
 		case TB_EVENT_KEY:
 			if (ev.key == TB_KEY_ESC) {
 				tb_shutdown();
-				return -1;
+				return 0;
 			}
 			break;
 		case TB_EVENT_MOUSE:
@@ -151,12 +139,4 @@ int dashboard_run(void) {
 		}
 		updateAndRedrawAll(mx, my);
 	}
-    return(0);
-}
-
-
-int dashboard_stop(void)
-{
-    tb_shutdown();
-    return -1;
 }
